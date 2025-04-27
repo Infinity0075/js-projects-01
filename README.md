@@ -11,14 +11,8 @@ Minor Projects:-
 07- payment-infrastructure.netlify.app
 08- anant02.netlify.app
 09- stopwatch0075.netlify.app
+10- rock-paper-game-0075.netlify.app
 
-
-10-
-11-
-12-
-13-
-14-
-15-
 Major Projects:-
 01- recipe-book-app-0075.netlify.app
 02- comfy-store-002.netlify.app
