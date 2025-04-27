@@ -1,0 +1,53 @@
+/* assets/css/pages.css */
+
+/* Common Section Styles */
+
+/* Active nav link */
+.navbar-link.active {
+  color: #ff6b6b;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.section {
+  padding-block: 80px;
+  background-color: #f9f9f9;
+}
+
+.section .container {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Center Text */
+.text-center {
+  text-align: center;
+}
+
+/* Footer Styling */
+.footer {
+  background: #222;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #aaa;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,127 @@
+/* Global Reset and Body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  transition: background-color 0.4s ease, padding 0.3s ease;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #007bff;
+}
+
+.navbar.active {
+  background-color: grey;
+}
+
+.navbar.active ul li a {
+  color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 25rem;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+.logo:hover img {
+  transform: rotate(7deg) scale(1.05);
+}
+
+/* Top Container */
+.top-container {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.top-container h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Text Content */
+.text {
+  margin: 2.5rem auto;
+  padding: 0 2rem;
+  max-width: 900px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .top-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+}
