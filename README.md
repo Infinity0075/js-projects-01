@@ -14,9 +14,10 @@ Minor Projects:-
 10- rock-paper-game-0075.netlify.app
 
 Major Projects:-
-01-site-config-0075.netlify.app
-02- recipe-book-app-0075.netlify.app
-03- comfy-store-002.netlify.app
-04- infinityproject0020.netlify.app
-05-infinity-wiki.netlify.app
-06- learning-ecomerce-0075.netlify.app
+01-hospital-system-config.netlify.app
+02-site-config-0075.netlify.app
+03- recipe-book-app-0075.netlify.app
+04- comfy-store-002.netlify.app
+05- infinityproject0020.netlify.app
+06-infinity-wiki.netlify.app
+07- learning-ecomerce-0075.netlify.app
